@@ -125,7 +125,7 @@ client.on('message', message => {
       .setColor(`#000000`)
       .setImage("https://cdn.discordapp.com/attachments/838086634142302208/921404253757644820/line_2.gif")
       .setThumbnail("https://cdn.discordapp.com/attachments/838086634142302208/921404255670247454/line_1.gif")
-      .setFooter(`》 POLAT BOT`, ``)
+      .setFooter(`》 MeMeBOT`, ``)
       .setDescription(`
       **Help Comand** 
 \`f3\`, \`f4\`, \`f5\`,
@@ -292,7 +292,7 @@ client.on('message', async message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/0CgLsf26JGg?', { audioonly: true });
+        let stream = yt('https://youtu.be/Kd6d8kOTB20', { audioonly: true });
         const dispatcher = connnection.play(stream);
       });
   }
