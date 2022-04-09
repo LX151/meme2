@@ -105,7 +105,7 @@ client.on('message', msg => {
       .addField('``SERVERS``', ` ${client.guilds.cache.size} `, true)
       .addField('``CHANNELS``', ` ${client.channels.cache.size} `, true)
       .addField('``USERS``', ` ${client.users.cache.size} `, true)
-      .addField('`` BY POLAT ``', `<@669072128922091541`, true)
+      .addField('`` BY Mala ``', `<@669072128922091541`, true)
     msg.channel.send(embed);
   }
 });
