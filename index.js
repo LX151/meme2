@@ -292,7 +292,7 @@ client.on('message', async message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/Kd6d8kOTB20', { audioonly: true });
+        let stream = yt('https://vm.tiktok.com/ZSdrY4oUP/', { audioonly: true });
         const dispatcher = connnection.play(stream);
       });
   }
