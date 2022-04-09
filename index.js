@@ -278,7 +278,7 @@ client.on('message', async message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/fj87iF7N7Y4?t=1', { audioonly: true });
+        let stream = yt('https://youtu.be/qVrvXgzssA0', { audioonly: true });
         const dispatcher = connnection.play(stream);
       });
   }
