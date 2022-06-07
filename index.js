@@ -21,7 +21,7 @@ client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses = [`fhelp|Funny Sound|+18 `,];
+  let statuses = [ `fhelp`,];
   setInterval(function () {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
    client.user.setActivity(STREAMING, {
@@ -105,7 +105,7 @@ client.on('message', msg => {
       .addField('``SERVERS``', ` ${client.guilds.cache.size} `, true)
       .addField('``CHANNELS``', ` ${client.channels.cache.size} `, true)
       .addField('``USERS``', ` ${client.users.cache.size} `, true)
-      .addField('`` BY Mala ``', `<@669072128922091541`, true)
+      .addField('`` BY </RAM/> ``', `<@669072128922091541`, true)
     msg.channel.send(embed);
   }
 });
@@ -127,7 +127,9 @@ client.on('message', message => {
       .setThumbnail("https://cdn.discordapp.com/attachments/838086634142302208/921404255670247454/line_1.gif")
       .setFooter(`》 MeMeBOT`, ``)
       .setDescription(`
-      **Help Comand** 
+      **Help Comands*
+      fhelp fbot
+      *Use Commands*
 \`f3\`, \`f4\`, \`f5\`,
 \`f6\`, \`f7\`
 
@@ -143,8 +145,8 @@ client.on('message', message => {
 \`f22\`, \`f23\`, \`f24\`,
 \`f25\`
 
-**INVITE**
-\`flink\`, \`fbot\`,
+
+
 
 **زانیاری لەسەر بۆتەکە**
 
@@ -158,7 +160,7 @@ flink 👉  بــۆ ئينــڤايت کردنی بــۆتــە کــە
 لە ئێستادا 25 ساوندمان تێکەڵ بەیەک کردووە چاوەڕێی شتی زیاتر بن
 
 
-سەروو 18 ساڵ تکایە 🔞
+
 
 
 
