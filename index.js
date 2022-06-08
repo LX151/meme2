@@ -272,7 +272,7 @@ client.on('message', async message => {
 
   if (message.content === q3) {
     message.react('🔊')
-    message.reply(`amash bo to`);
+    message.reply(`skchun`);
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       return message.repl(`جــۆيــن ڤـــۆيـــس بـــە
@@ -280,7 +280,7 @@ client.on('message', async message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/qVrvXgzssA0', { audioonly: true });
+        let stream = yt('https://youtu.be/MBmb5_TTT-w', { audioonly: true });
         const dispatcher = connnection.play(stream);
       });
   }
