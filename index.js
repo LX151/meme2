@@ -272,7 +272,7 @@ client.on('message', async message => {
 
   if (message.content === q3) {
     message.react('🔊')
-    message.reply(`amash bo to`);
+    message.reply(`amash bo to `);
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
       return message.repl(`جــۆيــن ڤـــۆيـــس بـــە
